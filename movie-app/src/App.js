@@ -7,13 +7,14 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 
 function App() {
+  // Main page
   return (
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/home" element={<Content/>} />
-        <Route path="/read" element={<Footer/>} />
-        <Route path="/create" element={<Header/>} />
+        <Route path="/home" element={<Content />} />
+        <Route path="/read" element={<Footer />} />
+        <Route path="/create" element={<Header />} />
       </Routes>
       <Footer />
     </Router>

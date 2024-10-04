@@ -1,7 +1,8 @@
 import React from 'react';
 
-// Content component. Returns "Hello World" and current time.
+// Content component
 const Content = () => {
+    // Returns "Hello World" and current time
     return (
         <div>
             <h1>Hello World!</h1>
@@ -10,4 +11,4 @@ const Content = () => {
     );
 }
 
-export default Content;
+export default Content; // Exports the component
