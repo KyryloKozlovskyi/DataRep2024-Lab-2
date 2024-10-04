@@ -7,7 +7,7 @@ import Content from './components/Content';
 import Footer from './components/Footer';
 
 function App() {
-  // Main page
+  // Main page. Client side routing for home -> Content/read-> Footer/create -> Header pages.
   return (
     <Router>
       <NavigationBar />
