@@ -11,9 +11,9 @@ function App() {
     <Router>
       <NavigationBar />
       <Routes>
-        <Route path="/home" element={<Content />} />
-        <Route path="/read" element={<h1>Read Component</h1>} />
-        <Route path="/create" element={<h1>Create Component</h1>} />
+        <Route path="/home" element={<Content/>} />
+        <Route path="/read" element={<Footer/>} />
+        <Route path="/create" element={<Header/>} />
       </Routes>
       <Footer />
     </Router>
